@@ -19,7 +19,7 @@ class Navigation extends Component {
         return (
             <div >
                 <Navbar dark color='dark' expand="sm">
-                    <NavbarBrand href='https://19mddil.github.io/ecommerce' >Ecommerce-MERN-</NavbarBrand>
+                    <NavbarBrand href='/' >Ecommerce Website</NavbarBrand>
                     <NavbarToggler onClick={this.navToggler} />
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav className='mr-auto' navbar>

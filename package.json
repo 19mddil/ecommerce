@@ -1,6 +1,6 @@
 {
-  "name": "ecommerce",
   "homepage": "https://19mddil.github.io/ecommerce/#",
+  "name": "ecommerce",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,8 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
