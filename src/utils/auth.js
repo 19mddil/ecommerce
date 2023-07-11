@@ -21,17 +21,32 @@ export const isAuthenticated = () => {
     else return false;
 }
 
+export const signout = () => {
+    if (typeof window !== 'undefined') {
+        //localStorage.clear();
+        localStorage.removeItem('jwt');
+    }
+}
+
+export const isEmailVarified = () => {
+    if (typeof window === 'undefined') return false;
+    if (localStorage.getItem('jwt')) {
+        const { verified } = jwt_decode(JSON.parse(localStorage.getItem('jwt')));
+        if (verified === 'false') {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+    else return false;
+}
+
 export const userInfo = () => {
     const jwt = JSON.parse(localStorage.getItem('jwt'));
     const decoded = jwt_decode(jwt);
     return {
         ...decoded,
         token: jwt
-    }
-}
-
-export const signout = () => {
-    if (typeof window !== 'undefined') {
-        localStorage.removeItem('jwt');
     }
 }
