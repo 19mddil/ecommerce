@@ -1,7 +1,7 @@
 {
   "main.css": "/ecommerce/static/css/main.41594a70.chunk.css",
-  "main.js": "/ecommerce/static/js/main.7d4b42d9.chunk.js",
-  "main.js.map": "/ecommerce/static/js/main.7d4b42d9.chunk.js.map",
+  "main.js": "/ecommerce/static/js/main.6f41f813.chunk.js",
+  "main.js.map": "/ecommerce/static/js/main.6f41f813.chunk.js.map",
   "static/js/1.ec5ddaa9.chunk.js": "/ecommerce/static/js/1.ec5ddaa9.chunk.js",
   "static/js/1.ec5ddaa9.chunk.js.map": "/ecommerce/static/js/1.ec5ddaa9.chunk.js.map",
   "static/css/2.b7c6fe30.chunk.css": "/ecommerce/static/css/2.b7c6fe30.chunk.css",
@@ -12,6 +12,6 @@
   "static/css/main.41594a70.chunk.css.map": "/ecommerce/static/css/main.41594a70.chunk.css.map",
   "static/css/2.b7c6fe30.chunk.css.map": "/ecommerce/static/css/2.b7c6fe30.chunk.css.map",
   "index.html": "/ecommerce/index.html",
-  "precache-manifest.434e62cbc4ff7b89315c08884db81681.js": "/ecommerce/precache-manifest.434e62cbc4ff7b89315c08884db81681.js",
+  "precache-manifest.42206e3030cdb75a1ddb714d122741f4.js": "/ecommerce/precache-manifest.42206e3030cdb75a1ddb714d122741f4.js",
   "service-worker.js": "/ecommerce/service-worker.js"
 }
